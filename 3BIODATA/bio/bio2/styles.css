@@ -1,0 +1,217 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #000000;
+}
+
+th{
+  text-align: center;
+  color: #222831;
+
+}
+
+.ag{
+  font-size: 15px;
+  margin-left: 2.20%;
+}
+.n{
+  margin-left: 2.20%;
+  display: inline-block;
+}
+.colr{
+  background-color: #222831;
+  color: #ffffff;
+
+}
+
+.container-fluid {
+  position: relative;
+  padding: 3% 7%;
+  text-align: center;
+  width: 100%;
+  /* padding-bottom: 140%; */
+  background-image: url(file:///C:/Users/HP/Downloads/imgonline-com-ua-twotoone-c6L88RRQZNuSloj.png);
+  /* background-size: cover; */
+}
+
+.container {
+  /* width: 70%; */
+  padding-left: 21%;
+  margin: auto;
+  text-align: left;
+}
+
+.le{
+  text-align: center;
+}
+#imgf1{
+  border-radius: 8px;
+  width: 210px;
+  height: 250px;
+  margin: 25% 0% 0%;
+}
+
+
+
+h1 {
+  /* color: #66BFBF; */
+  font-family: 'Merienda', cursive;
+  font-weight: 700;
+  font-size: 4rem;
+  padding-left: 3%;
+  /* line-height: 180px; */
+  text-align: center;
+}
+
+h3 {
+  background-color: #ffffff;
+  font-weight: 500;
+  padding-top: 2%;
+  padding-left: 2%;
+  font-size: 25px;
+  color: #222831;
+}
+
+/*template*/
+.container-fluid1 {
+  position: relative;
+  padding: 3% 7%;
+  width: 100%;
+  /* text-align: center; */
+}
+
+.h{
+  padding-left: 2%;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+/* .black{
+  color: white;
+  background-color: black;
+} */
+.grey {
+  background-color: #222831;
+  text-align: center;
+  color: #ffffff;
+  text-decoration-style: solid;
+}
+
+.card {
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  border: none;
+  backdrop-filter: blur(0px);
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px;
+  text-align: left;
+}
+
+.box {
+  padding-top: 15px;
+}
+
+/* #resume-template {
+  display: none;
+} */
+
+/* hr{
+  display: none;
+} */
+#name1 {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 500;
+}
+#summ1{
+  padding-bottom: 5%;
+}
+.l{
+  color: #222831;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+#obj1{
+  padding-left: 2.5%;
+}
+
+#name2 {
+  text-align: left;
+  color: #7F7C82;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+#name3 {
+  text-align: center;
+  color: #7F7C82;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+#cen {
+  color: #7F7C82;
+  text-align: center;
+}
+
+.right{
+  float: right;
+}
+.left{
+
+  padding-left: 2.22%;
+}
+
+
+.card-header {
+  background-color: #ffffff;
+  font-weight: 500;
+  padding-top: 2%;
+  font-size: 25px;
+  color: #222831;
+}
+
+
+
+.card-body {
+  color: #2B2B2B;
+}
+
+.btn{
+  margin: auto;
+}
+
+/* .hide {
+  display: none;
+} */
+
+/* .spacer {
+        aspect-ratio:900/300;
+         width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      } */
+/*
+.layer1{
+  background-image: url('./layered-waves-haikei23.svg');
+}
+
+.layer2{
+background-image: url('./layered-peaks-haikei1.svg');
+}
+
+.layer3{
+  background-image: url('./blob-scene-haikei.svg');
+}
+
+.layer4{
+  background-image: url('./circle-scatter-haikei.svg');
+}
+
+.layer5{
+  background-image: url('./layered-waves-haikei2.svg');
+} */

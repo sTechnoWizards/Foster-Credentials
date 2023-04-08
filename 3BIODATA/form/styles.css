@@ -1,0 +1,43 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #ffff;
+
+}
+.container-fluid{
+  position: relative;
+  padding: 3% 7%;
+  text-align: center;
+  background-image: url(file:///C:/Users/HP/Downloads/wallpaperflare.com_wallpaper%201.jpg);
+
+}
+.container {
+  /* width: 70%; */
+  padding-left: 21%;
+  margin:auto ;
+  text-align: left;
+}
+
+h1{
+  /* color: #66BFBF; */
+  font-family: 'Merienda', cursive;
+  font-weight: 700;
+  font-size: 4rem;
+  padding-left: 3%;
+  /* line-height: 180px; */
+  text-align: center;
+}
+
+h3{
+  font-family: 'Merienda', cursive;
+  font-weight: 400;
+  text-decoration: underline;
+  margin: auto;
+  padding-top: 10%;
+  padding-bottom: 3%;
+}
+
+
+.box{
+  padding-top: 15px;
+}
