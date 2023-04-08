@@ -1,0 +1,162 @@
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+  overflow-x:  hidden;
+}
+img{
+  width: 55%;
+  /* padding-bottom: 20%; */
+  /* padding:0% 20% 20%; */
+}
+.container{
+  background-color: #66BFBF;
+}
+.top-container{
+  /* background-color: #CBF1F5; */
+  background-image: url('file:///C:/Users/HP/Downloads/Untitled%20design%20(3).png');
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+  text-align: center;
+
+}
+
+.middle-container{
+  background-color: #FDF6EC;
+  padding: 7% 0;
+}
+
+.bottom-container{
+  background-color: #71C9CE;
+  padding: 40px 0 20px;
+}
+
+.footer-link{
+  margin: 20px;
+  text-decoration: none;
+  color: #11999E;
+
+}
+.footer-link:hover{
+  color: #E3FDFD;
+}
+.copy{
+  padding-top: 2%;
+  color: white;
+}
+
+.text{
+  text-align: left;
+}
+a{
+  text-decoration: none;
+}
+
+h1{
+  color: #66BFBF;
+  font-size: 4.25rem;
+  /* margin:  50px auto 0; */
+  /* line-height: 180px; */
+
+  font-family: 'Sacramento', cursive;
+}
+h2{
+  color: #66BFBF;
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+
+
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+/* body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center
+} */
+
+h3{
+  color: #11999E;
+}
+
+p{
+  color: #11999E;
+}
+.container {
+    transform-style: preserve-3d;
+}
+
+.container .box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    cursor: pointer
+}
+
+.container .box .body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 0.9s ease
+}
+
+.container .box .body .imgContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d
+}
+
+.container .box .body .imgContainer img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.container .box .body .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #66BFBF;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg)
+}
+
+.container .box:hover .body {
+    transform: rotateY(180deg)
+}
+
+.container .box .body .content div {
+    transform-style: preserve-3d;
+    padding: 20px;
+    background: linear-gradient(45deg, #66BFBF, #FDF6EC);
+    transform: translateZ(100px)
+}
+
+.container .box .body .content div h3 {
+    letter-spacing: 1px
+}
